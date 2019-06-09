@@ -1,0 +1,1829 @@
+{
+  "name": "IBM-Berlin-Bikini-German",
+  "intents": [
+    {
+      "intent": "no",
+      "examples": [
+        {
+          "text": "nicht"
+        },
+        {
+          "text": "nein"
+        },
+        {
+          "text": "nicht wirklich"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "dankeschön"
+        },
+        {
+          "text": "Dankschön"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "Dank dir"
+        },
+        {
+          "text": "thanks for the information"
+        },
+        {
+          "text": "Danke"
+        },
+        {
+          "text": "Thx"
+        },
+        {
+          "text": "Ich danke dir"
+        },
+        {
+          "text": "cool"
+        },
+        {
+          "text": "nice"
+        },
+        {
+          "text": "Okay"
+        },
+        {
+          "text": "merci"
+        },
+        {
+          "text": "great"
+        }
+      ]
+    },
+    {
+      "intent": "international_food",
+      "examples": [
+        {
+          "text": "Mediterranes essen ist gut"
+        },
+        {
+          "text": "International klingt gut"
+        },
+        {
+          "text": "Ich möchte internationale Küche"
+        },
+        {
+          "text": "italienisches Essen"
+        },
+        {
+          "text": "chinesisches Essen"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "highlight",
+      "examples": [
+        {
+          "text": "tell me about some highlights of the city"
+        },
+        {
+          "text": "are there any specials or highlights?"
+        },
+        {
+          "text": "things worth to see"
+        },
+        {
+          "text": "is there anything worth to see?"
+        },
+        {
+          "text": "does Berlin has any highlights"
+        },
+        {
+          "text": "highlights Berlin"
+        },
+        {
+          "text": "what is great about Berlin?"
+        },
+        {
+          "text": "why should I visit Berlin"
+        },
+        {
+          "text": "city highlights"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "soccer",
+      "examples": [
+        {
+          "text": "I like soccer"
+        },
+        {
+          "text": "how about soccer"
+        },
+        {
+          "text": "Is there a soccer club?"
+        },
+        {
+          "text": "I am interested in soccer"
+        },
+        {
+          "text": "I am intersted in football"
+        },
+        {
+          "text": "soccer would be intersting"
+        },
+        {
+          "text": "I am intersted in Fußball"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "running",
+      "examples": [
+        {
+          "text": "I like to go for a run"
+        },
+        {
+          "text": "a run is always good"
+        },
+        {
+          "text": "I am interested in running"
+        },
+        {
+          "text": "I like running"
+        },
+        {
+          "text": "jogging"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "ja"
+        },
+        {
+          "text": "warum nicht"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "richtig"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "jep"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "Ciao"
+        },
+        {
+          "text": "see you soon"
+        },
+        {
+          "text": "I want to go home"
+        },
+        {
+          "text": "Tschüss"
+        },
+        {
+          "text": "Aufwiedersehen"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "I have to leave"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "Au revoir"
+        },
+        {
+          "text": "I got to go"
+        },
+        {
+          "text": "Have a good day"
+        }
+      ]
+    },
+    {
+      "intent": "feeling",
+      "examples": [
+        {
+          "text": "wie geht es dir"
+        },
+        {
+          "text": "bist du ok"
+        },
+        {
+          "text": "wie fühlst du dich"
+        },
+        {
+          "text": "Bist du glücklich"
+        },
+        {
+          "text": "alles ok bei dir"
+        },
+        {
+          "text": "geht es dir gut"
+        }
+      ]
+    },
+    {
+      "intent": "acknowledgement",
+      "examples": [
+        {
+          "text": "Zustimmung"
+        },
+        {
+          "text": "ok, ich akzeptiere das"
+        },
+        {
+          "text": "okay"
+        },
+        {
+          "text": "ja"
+        },
+        {
+          "text": "ich stimme zu"
+        },
+        {
+          "text": "ok, falls notwendig"
+        }
+      ]
+    },
+    {
+      "intent": "language",
+      "examples": [
+        {
+          "text": "welche Sprach sprichst Du ausser deutsch?"
+        },
+        {
+          "text": "do you speak french"
+        },
+        {
+          "text": "Do you speak english?"
+        },
+        {
+          "text": "can you speak multiple languages?"
+        },
+        {
+          "text": "sprichst du spanisch"
+        },
+        {
+          "text": "wievile Sprachen sprichst Du?"
+        },
+        {
+          "text": "Sprichst du auch englisch?"
+        }
+      ]
+    },
+    {
+      "intent": "train",
+      "examples": [
+        {
+          "text": "Ich reise per Zug"
+        },
+        {
+          "text": "Ich nehme den Zug"
+        },
+        {
+          "text": "Ich nehme die S-Bahn"
+        },
+        {
+          "text": "I bevorzuge den Zug"
+        },
+        {
+          "text": "mit dem Zug"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "schwimmen",
+      "examples": [
+        {
+          "text": "Ich möchte im See schwimmen"
+        },
+        {
+          "text": "Ich interessiere mich für schwimmen"
+        },
+        {
+          "text": "Ich möchte schwimmen gehen"
+        },
+        {
+          "text": "Ich möchte im Fluß schwimmen"
+        }
+      ]
+    },
+    {
+      "intent": "regional_food",
+      "examples": [
+        {
+          "text": "was isst man hier typischerweise"
+        },
+        {
+          "text": "ich möchte gerne Schnitzel mit Pommes"
+        },
+        {
+          "text": "Deutsches Bier wäre sehr gut"
+        },
+        {
+          "text": "Ich bevorzuge regionales Essen"
+        },
+        {
+          "text": "essen aus der Region"
+        },
+        {
+          "text": "Ich möchte etwas aus der Region"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hiking",
+      "examples": [
+        {
+          "text": "I liebe wanderungen"
+        },
+        {
+          "text": "Ich mag wandern"
+        },
+        {
+          "text": "Ich möchte wanderen gehen"
+        }
+      ]
+    },
+    {
+      "intent": "ibm-bikini",
+      "examples": [
+        {
+          "text": "ibm event in berlin"
+        },
+        {
+          "text": "ibm event"
+        },
+        {
+          "text": "bikini event"
+        },
+        {
+          "text": "bikini"
+        },
+        {
+          "text": "Erzähle mir etwas zu diesem Event"
+        },
+        {
+          "text": "ich hätte gerne Informationen zu dem Event"
+        },
+        {
+          "text": "pop up experiance"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "airplane",
+      "examples": [
+        {
+          "text": "I think the airplane is the best option"
+        },
+        {
+          "text": "I want to travel by airplane"
+        },
+        {
+          "text": "I like Lufthansa"
+        },
+        {
+          "text": "I take the airplane"
+        },
+        {
+          "text": "I'll take the airplane"
+        },
+        {
+          "text": "I prefer the airplane"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "confusion",
+      "examples": [
+        {
+          "text": "Eningen"
+        },
+        {
+          "text": "ehningen oder eningen"
+        },
+        {
+          "text": "ehningen oder ehingen"
+        },
+        {
+          "text": "Is ehningen the same as ehingen?"
+        },
+        {
+          "text": "Is ehningen the same as eningen?"
+        },
+        {
+          "text": "I am confused about the name of the town"
+        },
+        {
+          "text": "Ehingen"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "restaurant",
+      "examples": [
+        {
+          "text": "wo kann ich ein Frühstück bekommen"
+        },
+        {
+          "text": "Ich habe hunger"
+        },
+        {
+          "text": "wo gibt es Gaststätten"
+        },
+        {
+          "text": "zeige mir ein paar Restaurants"
+        },
+        {
+          "text": "wo gibt es einen Lokation fürs Abendessen?"
+        },
+        {
+          "text": "wo kann man hier etwas essen"
+        },
+        {
+          "text": "restaurant Empfehlung"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "age",
+      "examples": [
+        {
+          "text": "wirst du älter?"
+        },
+        {
+          "text": "bist Du alt?"
+        },
+        {
+          "text": "bist Du jung?"
+        },
+        {
+          "text": "Wie alt bist du"
+        },
+        {
+          "text": "wirst du jünger?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hotel",
+      "examples": [
+        {
+          "text": "wie ist deine Unterkunft?"
+        },
+        {
+          "text": "Kannst Du ein Hotel empfehlen?"
+        },
+        {
+          "text": "hotel Empfehlungen"
+        },
+        {
+          "text": "wo kann ich schlafen?"
+        },
+        {
+          "text": "wo übernahchtest Du?"
+        },
+        {
+          "text": "ich benötige ein Hotelzimmer"
+        },
+        {
+          "text": "Gibt es Hotels in Berlin?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "name",
+      "examples": [
+        {
+          "text": "wie heisst du?"
+        },
+        {
+          "text": "wie heissen Sie?"
+        },
+        {
+          "text": "Wie ist ihr Name"
+        },
+        {
+          "text": "was ist dein Name"
+        },
+        {
+          "text": "Bist du Eva?"
+        }
+      ]
+    },
+    {
+      "intent": "ibm",
+      "examples": [
+        {
+          "text": "seit wann ist die IBM in Berlin"
+        },
+        {
+          "text": "wo ist die IBM Lokation in Berlin"
+        },
+        {
+          "text": "wo befindet sich IBM in Berlin"
+        },
+        {
+          "text": "IBM in Berlin"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "guten Tag"
+        },
+        {
+          "text": "Guten Abend"
+        },
+        {
+          "text": "Guten Nachmittag"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "grüzi"
+        },
+        {
+          "text": "halloo"
+        },
+        {
+          "text": "Grüß Gott"
+        },
+        {
+          "text": "Grüezi"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "hallo"
+        },
+        {
+          "text": "halloooooo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "gymnastics",
+      "examples": [
+        {
+          "text": "I am intersted in gymnastics"
+        },
+        {
+          "text": "I am a gymnast"
+        },
+        {
+          "text": "I like gymnastics"
+        },
+        {
+          "text": "turnen"
+        },
+        {
+          "text": "I prefer gymnastics"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "mayor",
+      "examples": [
+        {
+          "text": "who is the mayor of Ehningen?"
+        },
+        {
+          "text": "what is the name of the mayor?"
+        },
+        {
+          "text": "who is the mayor of Zurich?"
+        },
+        {
+          "text": "mayor ehningen"
+        },
+        {
+          "text": "do you know the mayor?"
+        },
+        {
+          "text": "tell me who is the mayor"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "car",
+      "examples": [
+        {
+          "text": "ich nöchte mit dem Auto reisen"
+        },
+        {
+          "text": "Ich reise mit dem Auto"
+        },
+        {
+          "text": "ich nehme mein Auto"
+        },
+        {
+          "text": "automobil"
+        },
+        {
+          "text": "fahre auf der Autobahn"
+        },
+        {
+          "text": "ich habe ein Auto"
+        },
+        {
+          "text": "ich nehme mein Fahrzeug"
+        },
+        {
+          "text": "I fahre auto"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Off_Topic",
+      "examples": [
+        {
+          "text": "how to get money"
+        },
+        {
+          "text": "how to get rich"
+        },
+        {
+          "text": "are you a man or a women"
+        },
+        {
+          "text": "I need more money"
+        },
+        {
+          "text": "how to get famous"
+        },
+        {
+          "text": "show me famous person"
+        }
+      ]
+    },
+    {
+      "intent": "day_date",
+      "examples": [
+        {
+          "text": "welchen Tag haben wir übermorgen?"
+        },
+        {
+          "text": "welcher Tag ist morgen?"
+        },
+        {
+          "text": "welcher Tag war gestern?"
+        },
+        {
+          "text": "kannst du mir sagen, welchen Tag wir heute haben?"
+        },
+        {
+          "text": "was ist heute für ein Tag"
+        }
+      ]
+    },
+    {
+      "intent": "time",
+      "examples": [
+        {
+          "text": "what time?"
+        },
+        {
+          "text": "welche Uhrzeit haben wir"
+        },
+        {
+          "text": "wie spät ist es"
+        },
+        {
+          "text": "wieviel Uhr ist es?"
+        }
+      ]
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "kannst Du mir eine Frage beantworten"
+        },
+        {
+          "text": "Hilfe"
+        },
+        {
+          "text": "ich brauche Unterstützung"
+        },
+        {
+          "text": "wie kann ich dir helfen?"
+        },
+        {
+          "text": "Kansst Du mir helfen?"
+        },
+        {
+          "text": "Ich habe eine Frage"
+        },
+        {
+          "text": "ich brauche Hilfe"
+        }
+      ]
+    },
+    {
+      "intent": "weather",
+      "examples": [
+        {
+          "text": "Regen"
+        },
+        {
+          "text": "Wettervorhersage"
+        },
+        {
+          "text": "wie wir das Wetter"
+        },
+        {
+          "text": "Wie ist das Wetter?"
+        },
+        {
+          "text": "Sage mir etwas zum Wetter"
+        },
+        {
+          "text": "Sonne"
+        },
+        {
+          "text": "Wie wird das Wetter morgen?"
+        },
+        {
+          "text": "bewölkt"
+        },
+        {
+          "text": "Wie wird das Wetter heute?"
+        },
+        {
+          "text": "Was ist mit dem Wetter?"
+        }
+      ]
+    },
+    {
+      "intent": "Siri",
+      "examples": [
+        {
+          "text": "hast du schonmal mit siri geredet"
+        },
+        {
+          "text": "was weisst du über siri"
+        },
+        {
+          "text": "was ist siri"
+        },
+        {
+          "text": "kennst du siri"
+        },
+        {
+          "text": "bist du mit siri verwandt"
+        },
+        {
+          "text": "weißt du wer siri ist"
+        }
+      ]
+    },
+    {
+      "intent": "sports",
+      "examples": [
+        {
+          "text": "Are there any sport opportunities"
+        },
+        {
+          "text": "sports clubs"
+        },
+        {
+          "text": "what kind of sports do they offer"
+        },
+        {
+          "text": "Are there sports clubs?"
+        },
+        {
+          "text": "Can you do sports in Ehningen?"
+        },
+        {
+          "text": "I am interested in sports"
+        },
+        {
+          "text": "Tell me about the sports opportunities"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "date",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "today",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "next week",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "day before yesterday",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tomorrow",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yesterday",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "day after tomorrow",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "aidlingen",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "aidlingen",
+          "synonyms": [
+            "aidlingen",
+            "aidl",
+            "aidling",
+            "home"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    }
+  ],
+  "language": "de",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Fragen übers Wetter leite ich mal an den Wetter service weiter."
+          ],
+          "selection_policy": "sequential"
+        },
+        "action": {
+          "call_weather": ""
+        }
+      },
+      "parent": "node_1_1492527122118",
+      "metadata": {},
+      "conditions": "#weather",
+      "dialog_node": "node_1_1518353139475"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_18_1506425280507",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_20_1506425280507",
+      "previous_sibling": "handler_19_1506425280507"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_18_1506425280507",
+      "metadata": {},
+      "event_name": "input",
+      "dialog_node": "handler_19_1506425280507"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Sure. How about Pizzeria Atlantic or Ristorante Da Leo?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1527069960264",
+      "metadata": {},
+      "conditions": "#international_food",
+      "dialog_node": "node_9_1527074522654",
+      "previous_sibling": "node_8_1527074330912"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Good choice! I can recommend the SwissChuchi at Hotel Adler. They have great fondue there!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1527069960264",
+      "metadata": {},
+      "conditions": "#regional_food",
+      "dialog_node": "node_8_1527074330912"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1494604080270",
+      "metadata": {},
+      "dialog_node": "slot_1_1504684772573",
+      "previous_sibling": "node_4_1505213881710"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I can speak English. But you can teach me some more languages if you like."
+          ],
+          "selection_policy": "sequential"
+        },
+        "answer_id": "<? (output.answer_id?:new JsonArray()).append('CC_Sprache_Deutsch') ?>"
+      },
+      "parent": "node_1_1494604080270",
+      "metadata": {},
+      "conditions": "#language",
+      "dialog_node": "node_4_1505213881710"
+    },
+    {
+      "type": "standard",
+      "title": "#no",
+      "output": {
+        "text": {
+          "values": [
+            "Okay, no problem. You can also get help from the Zurich Tourist Information Center in the Schweizer Heimatwerk, Uraniastrasse 1."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1527078578798",
+      "metadata": {},
+      "conditions": "#no",
+      "dialog_node": "node_12_1527078733470",
+      "previous_sibling": "node_11_1527078708770"
+    },
+    {
+      "type": "standard",
+      "title": "#yes",
+      "output": {
+        "text": {
+          "values": [
+            "If you wish I can send you a hotel offer via email, I just need some more information:\n- Arrival and departure date\n- How many persons/rooms\n- Your first and last name\n- Email address"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1527078578798",
+      "metadata": {},
+      "conditions": "#yes",
+      "dialog_node": "node_11_1527078708770"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "Entities",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "AnythingElse ChitChat"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1500371870156",
+      "previous_sibling": "node_3_1500368282193"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "${greeting} und auf Wiedersehen.",
+            "${greeting}.",
+            "${greeting} und bis bald."
+          ],
+          "selection_policy": "random"
+        },
+        "answer_id": "<? (output.answer_id?:new JsonArray()).append('CC_Verabschiedung') ?>"
+      },
+      "parent": "Entities",
+      "metadata": {},
+      "conditions": "false",
+      "dialog_node": "node_3_1500368282193"
+    },
+    {
+      "type": "standard",
+      "title": "#mayor",
+      "output": {
+        "text": {
+          "values": [
+            "Michael Müller Bürgermeister von Berlin."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#mayor",
+      "dialog_node": "node_4_1526460548000",
+      "previous_sibling": "node_9_1526464233482"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "That question is out of scope for this application, take a look at the Conversation enhanced application to handle questions like these."
+          ]
+        },
+        "action": {
+          "call_discovery": ""
+        }
+      },
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#askDiscovery",
+      "dialog_node": "node_1_1518092718313",
+      "previous_sibling": "node_1_1492527122118"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#weather",
+      "dialog_node": "node_1_1492527122118",
+      "previous_sibling": "Uhrzeit"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Ich höre auf viele Namen. Aber nenne mich bitte nicht ALEXA oder Siri!",
+            "Hallo ich bin einfach dein digitaler Assistent.",
+            ""
+          ],
+          "selection_policy": "random"
+        },
+        "answer_id": "<? (output.answer_id?:new JsonArray()).append('CC_Name') ?>"
+      },
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#name",
+      "dialog_node": "node_1_1491231199777",
+      "previous_sibling": "node_8_1503045709835"
+    },
+    {
+      "type": "standard",
+      "title": "ibm-bikini",
+      "output": {
+        "text": {
+          "values": [
+            "Dieser Event wird auch  'Think at IBM' genannt und ist eine Platform smarter business.",
+            "Willkommen zu \"Think at IBM\".  Eine Platform für smarter business!",
+            "",
+            ""
+          ],
+          "selection_policy": "random"
+        },
+        "answer_id": "<? (output.answer_id?:new JsonArray()).append('CC_Befinden') ?>"
+      },
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#ibm-bikini",
+      "dialog_node": "node_8_1503045709835",
+      "previous_sibling": "node_1_1491208242224"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Ich habe von Siri gehört, aber ich weiss nicht genau was Siri so kann."
+          ],
+          "selection_policy": "sequential"
+        },
+        "answer_id": "<? (output.answer_id?:new JsonArray()).append('CC_Siri') ?>"
+      },
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#Siri",
+      "dialog_node": "node_36_1506436667176",
+      "previous_sibling": "node_3_1528113243008"
+    },
+    {
+      "type": "standard",
+      "title": "day_date",
+      "output": {},
+      "parent": "Intents",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#day_date",
+      "dialog_node": "node_1_1505216738597",
+      "previous_sibling": "node_2_1490193496413"
+    },
+    {
+      "type": "standard",
+      "title": "#hotel",
+      "output": {
+        "text": {
+          "values": [
+            "Hier gibt es verschiedene Hotels, aber auch Pensionen und andere Übernachtungsmöglichkeiten"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#hotel",
+      "dialog_node": "node_10_1527078578798",
+      "previous_sibling": "node_7_1527069960264"
+    },
+    {
+      "type": "standard",
+      "title": "feeling",
+      "output": {
+        "text": {
+          "values": [
+            "Ich fühle mich gut, bin in einem kühlen Rechenzentrum untergebracht und meine Gesundheitsdaten werden ständig überwacht. Wie geht es Dir?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Intents",
+      "conditions": "#feeling",
+      "dialog_node": "node_2_1559649830709",
+      "previous_sibling": "node_1_1494604080270"
+    },
+    {
+      "type": "standard",
+      "title": "#ibm",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Die IBM Berlin befindet sich am Nahmitzer Damm 12 in Berlin"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "IBM Berlin",
+            "source": "http://www.dein-plan.de/img/mpoix/013073_5.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#ibm",
+      "dialog_node": "node_14_1527079732562",
+      "previous_sibling": "node_10_1527078578798"
+    },
+    {
+      "type": "standard",
+      "title": "help",
+      "output": {
+        "text": {
+          "values": [
+            "Ich freue mich Dir zu helfen. Was kann ich für dich tun?",
+            "Ich helfe sehr gerne, was ist deine Frage?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#help",
+      "dialog_node": "node_3_1528113243008",
+      "previous_sibling": "node_2_1559649830709"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "ich bin ja ein virtueller Assistant und da spricht man nicht über das Alter."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Intents",
+      "conditions": "#age",
+      "dialog_node": "node_7_1559898710627",
+      "previous_sibling": "node_14_1527079732562"
+    },
+    {
+      "type": "standard",
+      "title": "#restaurant",
+      "output": {
+        "text": {
+          "values": [
+            "Selbstverständlich! Bist du an nationaler oder internationaler Küche interessiert"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#restaurant",
+      "dialog_node": "node_7_1527069960264",
+      "previous_sibling": "node_11_1526470064676"
+    },
+    {
+      "type": "standard",
+      "title": "Off-Topic",
+      "output": {},
+      "parent": "Intents",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "AnythingElse ChitChat"
+      },
+      "conditions": "#Off_Topic",
+      "dialog_node": "node_1_1500548441813",
+      "previous_sibling": "node_8_1488796187052"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#language",
+      "dialog_node": "node_1_1494604080270",
+      "previous_sibling": "node_1_1491231199777"
+    },
+    {
+      "type": "standard",
+      "title": "#travel",
+      "output": {
+        "text": {
+          "values": [
+            "Möchtest Du mit dem Auto oder Flugzeug reisen?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#travel",
+      "dialog_node": "node_11_1526470064676",
+      "previous_sibling": "node_10_1526470001696"
+    },
+    {
+      "type": "standard",
+      "title": "#highlight",
+      "output": {
+        "text": {
+          "values": [
+            "Berlin ist eine sehr interessante Stadt und hat viel zu bieten, sogar eine Developer UnConference hier im Bikini."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#highlight",
+      "dialog_node": "node_9_1526464233482",
+      "previous_sibling": "node_1_1518092718313"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Es war schön mit Dir zu sprechen. Vielen Dank und bis zum nächsten Mal.",
+            "Ok, ich hoffe wir reden bald wieder miteinander",
+            "Okay, und einen wunderschönen Tag noch."
+          ],
+          "selection_policy": "random"
+        },
+        "answer_id": "<? (output.answer_id?:new JsonArray()).append('CC_Verabschiedung') ?>"
+      },
+      "parent": "Intents",
+      "context": {},
+      "metadata": {},
+      "conditions": "#goodbye",
+      "dialog_node": "node_8_1488796187052",
+      "previous_sibling": "node_7_1559898710627"
+    },
+    {
+      "type": "standard",
+      "title": "#time",
+      "output": {
+        "text": {
+          "values": [
+            "It is <? now().reformatDateTime(\"HH:mm\") ?> o'clock."
+          ]
+        },
+        "imagefn": [
+          "./images/clockimg.jpeg"
+        ],
+        "linktext": [
+          "test for link functions ---to be removed "
+        ],
+        "textlink": [
+          "https://console.bluemix.net/openwhisk/"
+        ],
+        "imagename": [
+          "clock-image"
+        ]
+      },
+      "parent": "Intents",
+      "context": {},
+      "metadata": {},
+      "conditions": "#time",
+      "dialog_node": "Uhrzeit",
+      "previous_sibling": "node_1_1505216738597"
+    },
+    {
+      "type": "standard",
+      "title": "#thank_you",
+      "output": {
+        "text": {
+          "values": [
+            "Es war mir ein Vergnügen.",
+            "Ich bin froh, wenn ich dir helfen konnte. Hast Du weitere Fragen",
+            "Danke"
+          ],
+          "selection_policy": "random"
+        },
+        "answer_id": "<? (output.answer_id?:new JsonArray()).append('CC_Danke') ?>"
+      },
+      "parent": "Intents",
+      "context": {
+        "is_non_business_question": false
+      },
+      "metadata": {},
+      "conditions": "#thank_you",
+      "dialog_node": "node_2_1490193496413",
+      "previous_sibling": "node_36_1506436667176"
+    },
+    {
+      "type": "standard",
+      "title": "#sports",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Berlin bietet eine Menge an Sportmöglichkeiten. Welche Sportart interessiert dich? Schwimmen? Wandern? Radfahren?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#sports",
+      "dialog_node": "node_10_1526470001696",
+      "previous_sibling": "node_4_1526460548000"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Hallo, Grüß Gott, hi, grüzi und willkommen  zu der Developer UnConference hier im Bikini bei der IBM."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Intents",
+      "metadata": {},
+      "conditions": "#greetings",
+      "dialog_node": "node_1_1491208242224"
+    },
+    {
+      "type": "standard",
+      "title": "#airplane",
+      "output": {
+        "text": {
+          "values": [
+            "Zurich Airport is the largest international airport of Switzerland located 13 kilometres (8 mi) north of central Zürich"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1526470064676",
+      "metadata": {},
+      "conditions": "#airplane",
+      "dialog_node": "node_2_1527064662524",
+      "previous_sibling": "node_1_1527064247056"
+    },
+    {
+      "type": "standard",
+      "title": "#train",
+      "output": {
+        "text": {
+          "values": [
+            "There are many trains connecting Germany and other countries to Switzerland. The station can be found at the northern end of the old town, in central Zürich, near the confluence of the rivers Limmat and Sihl. The trains are comfortable and definitely recommended over flights."
+          ],
+          "selection_policy": "sequential"
+        },
+        "linktext": [
+          "train time schedule"
+        ],
+        "textlink": [
+          "http://www.fahrplanauskunft.de/"
+        ]
+      },
+      "parent": "node_11_1526470064676",
+      "metadata": {},
+      "conditions": "#train",
+      "dialog_node": "node_1_1527064247056",
+      "previous_sibling": "node_12_1526470192124"
+    },
+    {
+      "type": "standard",
+      "title": "#car",
+      "output": {
+        "text": {
+          "values": [
+            "Coming from Germany follow the Autonbahn A81 and then take the A4 and A1 to Zürich. The traffic in the city, however, is very busy. Zurich car drivers spend more time stuck in traffic jams than in most other European cities."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1526470064676",
+      "metadata": {},
+      "conditions": "#car",
+      "dialog_node": "node_12_1526470192124"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "AnythingElse ChitChat",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_3_1520451222732"
+    },
+    {
+      "type": "standard",
+      "title": "#hiking",
+      "output": {
+        "text": {
+          "values": [
+            "In the canton of Zurich, hiking enthusiasts can find countless hiking trails of varying levels of difficulty and all with spectacular scenery. Whether high-lying paths with views of Lake Zurich, educational trails, or routes through gorges – nobody will ever get bored on these hikes."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526470001696",
+      "metadata": {},
+      "conditions": "#hiking",
+      "dialog_node": "node_5_1527068470638",
+      "previous_sibling": "node_4_1527068201646"
+    },
+    {
+      "type": "standard",
+      "title": "#biking",
+      "output": {
+        "text": {
+          "values": [
+            "Zurich offers you many opportunities for cycling and mountain biking. If you are a road cyclist you can cycle around the lake of Zurich (about 50 mi) and take a break at the city of Rapperswil.\n\nIf you are a recreational cyclist and just want to get around and enjoy the scenery you can cycle along the river Limmat or the river Sihl. For a guided outing www.toptrek.ch offers a wide range of so-called Zurich Welcome! Tours.  \n\nMountain bikers can ride up to the several hills that surround Zurich. The Uetliberg, Zurich's local mountain, offers an outstanding panoramic view and a downhill bike trail."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526470001696",
+      "metadata": {},
+      "conditions": "#biking",
+      "dialog_node": "node_6_1527068493192",
+      "previous_sibling": "node_5_1527068470638"
+    },
+    {
+      "type": "standard",
+      "title": "#swimming",
+      "output": {
+        "text": {
+          "values": [
+            "With its lake and the river Limmat, Zurich offers plenty of opportunities for a swim. The water is cleaner than in most European cities and fine for swimming in. Besides the possibility of just jumping into the lake anywhere, the city has eleven official outdoor swimming baths on the lake or the river. For many of them an entrance fee is due, but the ones on the river are usually free. In the morning (07:00/09:00 - 11:00) they are usually open no matter the weather."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1526470001696",
+      "metadata": {},
+      "conditions": "#swimming",
+      "dialog_node": "node_4_1527068201646"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1504684772573",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_3_1504684772573",
+      "previous_sibling": "handler_2_1504684772573"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1504684772573",
+      "metadata": {},
+      "event_name": "input",
+      "dialog_node": "handler_2_1504684772573"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "today is @sys-date"
+          ],
+          "selection_policy": "sequential"
+        },
+        "answer_id": "<? (output.answer_id?:new JsonArray()).append('CC_DatumHeute') ?>"
+      },
+      "parent": "node_1_1505216738597",
+      "context": {
+        "Tag": "<? now().reformatDateTime(\"EEEEE\") ?>",
+        "Datum": "<? now().reformatDateTime(\"dd. MMMM\") ?>"
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_11_1507726236821",
+      "previous_sibling": "node_14_1506424817276"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1505216738597",
+      "metadata": {},
+      "dialog_node": "slot_18_1506425280507",
+      "previous_sibling": "node_11_1507726236821"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "after tomorrow is @sys-date"
+          ],
+          "selection_policy": "sequential"
+        },
+        "answer_id": "<? (output.answer_id?:new JsonArray()).append('CC_DatumMorgen') ?>"
+      },
+      "parent": "node_1_1505216738597",
+      "context": {
+        "Tag": "<? @sys-date.reformatDateTime(\"EEEEE\") ?>",
+        "Datum": "<? @sys-date.reformatDateTime(\"dd. MMMM\") ?>"
+      },
+      "metadata": {},
+      "conditions": "@date:(day after tomorrow)",
+      "dialog_node": "node_14_1506424817276",
+      "previous_sibling": "node_21_1506425387193"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "day before yesterday was @sys-date"
+          ],
+          "selection_policy": "sequential"
+        },
+        "answer_id": "<? (output.answer_id?:new JsonArray()).append('CC_DatumGestern') ?>"
+      },
+      "parent": "node_1_1505216738597",
+      "context": {
+        "Tag": "<? @sys-date.reformatDateTime(\"EEEEE\") ?>",
+        "Datum": "<? @sys-date.reformatDateTime(\"dd. MMMM\") ?>"
+      },
+      "metadata": {},
+      "conditions": "@date:(day before yesterday)",
+      "dialog_node": "node_21_1506425387193",
+      "previous_sibling": "node_22_1506425479032"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "yesterday was @sys-date"
+          ],
+          "selection_policy": "sequential"
+        },
+        "answer_id": "<? (output.answer_id?:new JsonArray()).append('CC_DatumVorgestern') ?>"
+      },
+      "parent": "node_1_1505216738597",
+      "context": {
+        "Tag": "<? @sys-date.reformatDateTime(\"EEEEE\") ?>",
+        "Datum": "<? @sys-date.reformatDateTime(\"dd. MMMM\") ?>"
+      },
+      "metadata": {},
+      "conditions": "@date:yesterday",
+      "dialog_node": "node_22_1506425479032",
+      "previous_sibling": "node_23_1506426018991"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "tomorrow is @sys-date"
+          ],
+          "selection_policy": "sequential"
+        },
+        "answer_id": "<? (output.answer_id?:new JsonArray()).append('CC_DatumÜbermorgen') ?>"
+      },
+      "parent": "node_1_1505216738597",
+      "context": {
+        "Tag": "<? @sys-date.reformatDateTime(\"EEEEE\") ?>",
+        "Datum": "<? @sys-date.reformatDateTime(\"dd. MMMM\") ?>"
+      },
+      "metadata": {},
+      "conditions": "@date:tomorrow",
+      "dialog_node": "node_23_1506426018991",
+      "previous_sibling": "node_12_1507726248353"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "today is @sys-date"
+          ],
+          "selection_policy": "sequential"
+        },
+        "answer_id": "<? (output.answer_id?:new JsonArray()).append('CC_DatumHeute') ?>"
+      },
+      "parent": "node_1_1505216738597",
+      "context": {
+        "Tag": "<? now().reformatDateTime(\"EEEEE\") ?>",
+        "Datum": "<? now().reformatDateTime(\"dd. MMMM\") ?>"
+      },
+      "metadata": {},
+      "conditions": "@date:today",
+      "dialog_node": "node_12_1507726248353"
+    },
+    {
+      "type": "standard",
+      "title": "Intents",
+      "output": {},
+      "context": {
+        "is_non_business_question": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1491208242224"
+      },
+      "conditions": "$topConfidence>$confidence_threshold &&   $confidence_threshold ||    true",
+      "dialog_node": "Intents",
+      "previous_sibling": "node_1_1528114324372"
+    },
+    {
+      "type": "standard",
+      "title": "AnythingElse ChitChat",
+      "output": {
+        "text": {
+          "values": [
+            "sorry, nobody told me how to handle this question"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "AnythingElse ChitChat",
+      "digress_out": "allow_all",
+      "previous_sibling": "Entities"
+    },
+    {
+      "type": "standard",
+      "title": "Entities",
+      "output": {},
+      "context": {
+        "is_non_business_question": true
+      },
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "Entities",
+      "previous_sibling": "Intents"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "context": {
+        "topIntent": "<? intents[0].intent ?>",
+        "topConfidence": "<? intents[0].confidence ?>",
+        "is_non_business_question": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "Intents"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1528114324372"
+    }
+  ],
+  "workspace_id": "253a9607-2ef2-466a-a074-08c86ecb4993",
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "status": "Available"
+}
